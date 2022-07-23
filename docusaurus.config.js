@@ -89,7 +89,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/overview',
+                to: '/docs/welcome',
               },
             ],
           },
@@ -107,19 +107,6 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/Lab3_Web3Shop',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
