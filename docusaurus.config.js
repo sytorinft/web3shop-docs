@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Web3Shop',
   tagline: 'The next generation of Web3 social e-commerce',
-  url: 'https://shop.web3shop.me',
+  url: 'https://www.web3shop.me',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Tingwei-Justin/web3shop-docs/blob/master',
           routeBasePath: '/',
           showLastUpdateTime: true,
 
@@ -75,7 +75,7 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Tingwei-Justin/web3shop-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -88,9 +88,18 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Welcome',
                 to: '/',
               },
+              {
+                label: 'Tutorial',
+                to: '/category/tutorial',
+              },
+              {
+                label: 'Community',
+                to: '/overview/community/',
+              },
+              
             ],
           },
           {
